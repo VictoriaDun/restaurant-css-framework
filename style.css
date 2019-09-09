@@ -1,0 +1,11 @@
+.navbar.navbar-1 .navbar-toggler {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+    }
+.jumbotron{background-image: url(tomatoes.jpg);background-size: cover;}
+.fab {color:rgb(51,49,49);
+font-size: 30px;
+margin: 5px;
+padding-top: 20px;
+padding-bottom: 20px;}
+.title {font-size: 30%;
+color: darkred;}
