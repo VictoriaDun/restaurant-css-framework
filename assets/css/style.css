@@ -1,16 +1,31 @@
 .navbar.navbar-1 .navbar-toggler {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
-    }
-.jumbotron{
+}
+
+.jumbotron {
     width: 100%;
     background-size: cover;
-background-repeat: no-repeat;}
-.fab {color:rgb(51,49,49);
-font-size: 30px;
-margin: 5px;
-padding-top: 20px;
-padding-bottom: 20px;}
-.title {font-size: 30%;
-color: darkred;}
-.card {width: 25%;
-padding: auto};
+    background-repeat: no-repeat;
+}
+
+.fab {
+    color: rgb(51, 49, 49);
+    font-size: 30px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title {font-family:cursive;
+    font-size: 30%;
+    color: rgb(1, 22, 1);
+}
+.card-body{height: 150px;}
+.card-img-bottom {width: 250px;
+    height: 150px;}
+.galleryimgs{width: 350px;
+    height:350px;
+}
+.pagination {justify-content: center;}
+
+
