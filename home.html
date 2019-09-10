@@ -12,8 +12,8 @@
     <script src="https://kit.fontawesome.com/3dc08a5e27.js"></script>
 </head>
 
-
 <body class="body" style="background-image: url(assets/images/white.png)">
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -26,47 +26,61 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
-                    <li class="active"><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="useful.html">Useful</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- name of the page -->
-    <div class="container page">
-        <div class="row text-align-center">
-            <div class="col-md-6">
-                <h2>Gallery</h2>
-            </div>
-        </div>
-    </div>
-    <!-- images -->
+    <!-- Jumbotron -->
     <div class="container">
-        <div class="row ">
-            <div class="col-md-4">
-                <img class="galleryimgs" src="assets/images/jumbo.jpg" alt="soup" ;>
+        <div class="jumbotron" style="background-image: url(assets/images/jumbo.jpg)">
+            <div class="title">
+                <p>
+                    <h1>RED TOMATOES</h1>
+                </p>
+                <p>vegetarian restaurant</p>
+
             </div>
-            <div class="col-md-4">
-                <img class="galleryimgs" src="assets/images/woman.jpg" alt="woman" ;>
-                <!-- Pagination -->
-                <nav aria-label="gallery navigation">
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item"><a class="page-link" href="gallery.html">1</a></li>
-                        <li class="page-item"><a class="page-link" href="gallery1.html">2</a></li>
-                        <li class="page-item"><a class="page-link" href="gallery2.html">3</a></li>
-                        <li class="page-item"><a class="page-link" href="gallery3.html">4</a></li>
-                    </ul>
-                </nav>
+        </div>
+        <!-- Two panels -->
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h3 class="card-title"><strong>Our events</strong></h3>
+                        <p class="card-text">Here, at Red Tomatoes, we love hosting events! It is a great occasion to
+                            meet wonderful people, enjoy amazing vegetarian food and share happy moments. That is why,
+                            each Mondays, we are organizing our <a href="contact.html"><strong>Quizz Nights</strong></a>
+                            . On Fridays, we are
+                            hosting our <a href="contact.html"><strong>Cooking Classes</strong></a>. Also, we love to
+                            organize your special
+                            occasion events. Make a wish and our team will make sure to realize it! </p>
+                    </div>
+                    <img class="card-img-bottom" src="assets/images/celebration.jpg" alt="celebration">
+                </div>
             </div>
-            <div class="col-md-4">
-                <img class="galleryimgs" src="assets/images/avocado.jpg" alt="avocado" ;>
+            <div class="col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h3 class="card-title"><strong>What's new?</strong></h3>
+                        <p class="card-text">Our amazing chefs are surprising us each week with a new recipe. To inspire
+                            them, our customers are choosing a new theme each week. This week's theme is <a
+                                href="menu.html"><strong>Summer
+                                    Rainbow</strong></a>. Come and try our new recipes, and you'll be amazed by the
+                            creativity
+                            of our chefs! </p>
+                    </div>
+                    <img class="card-img-bottom" src="assets/images/dish.jpg" alt="dish">
+                </div>
             </div>
         </div>
     </div>
-
     <!-- Social buttons -->
     <div class="container">
         <div class="row text center">
